@@ -36,7 +36,7 @@ try:
   audioPlayer = vlcInstance.media_player_new()
 
   #
-  # Function playAudio() randomly selects a file in directory audioDirectory
+  # Function playAudio() randomly selects a file in directory {audioDirectory}
   # and plays it.
   #
 
@@ -74,7 +74,7 @@ try:
     # print(f"Playing {randSel}: {dirContents[randSel]}")
     audioPlayer.play()
 
-    # Set the audio level to what is specified in variable audioLevel. This can
+    # Set the audio level to what is specified in variable {audioLevel}. This can
     # only happen when audioPlayer is in play state so wait until this is true
     # then set the level. Note interfacing with VLC player from a python script
     # is asynchronous so polling is needed to verify the play state.
@@ -102,7 +102,7 @@ try:
 
   #
   # Function pinEventCallback is called when GPIO.add_event_detect (below)
-  # detects an event on gpioPin.
+  # detects an event on {gpioPin}.
   #
 
   def pinEventCallback(channel):
