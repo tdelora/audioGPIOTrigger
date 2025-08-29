@@ -5,20 +5,11 @@ import os, random, signal, sys, time, vlc
 GPIO.setmode(GPIO.BCM)
 
 # This script triggers a recording to be playeed vis VLC on a Raspberry Pi
-# when a GPIO pin (coded to pin 16) goes to a high state.
-
-# Notes
-# Clips mean colored wires with an alligator clip and a DuPont connector
-#  - Amazon: https://a.co/d/iVMrlcs
-# Resistor means resistors...
-#  - Amazon: https://a.co/d/1mahULF
-# PWR: Red clip to pin 1 (3.3v) with 330 ohm resistor
-# GRD: Black clip to pin 34 (gnd) with 1K ohm resistor
-# SWC: Blue clip to pin 16
+# when a GPIO pin (default to pin 16 via variable gpioPi) goes to a high state.
+# When triggered it randomly selects and plays a file from a directory specified at startup.
 #
-# After starting the script:
-#  - touch SWC to resistor on PWR to trigger HIGH
-#  - Touch SWC to resistor on GRD to trigger LOW
+# Please see project README.md for use cases.
+#
 
 #
 # Setup - Audio file location and GPIO pins settings
@@ -32,7 +23,7 @@ audioLevel = 100
 gpioPin = 16
 
 # Set the pin, using GPIO.PUD_DOWN in GPIO.setup should keep the pin state low
-# when SWC is not touching PWR.
+# at startup and when not triggered.
 GPIO.setup(gpioPin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 try: 
@@ -83,6 +74,10 @@ try:
     # print(f"Playing {randSel}: {dirContents[randSel]}")
     audioPlayer.play()
 
+    # Set the audio level to what is specified in variable audioLevel. This can
+    # only happen when audioPlayer is in play state so wait until this is true
+    # then set the level. Note interfacing with VLC player from a python script
+    # is asynchronous so polling is needed to verify the play state.
     while not audioPlayer.get_state():
       # print("waiting on audioPlayer")
       continue
