@@ -9,4 +9,5 @@ Note: Directory {audioDirectory} is re-analyzed each time function playAudio() i
 to allow for the contents of the audio directory to be updated and utilized without
 restarting this script.
 
-
+## Applications
+### Playing a recording on a telephone when handset is taken off the cradle.
