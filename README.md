@@ -11,3 +11,6 @@ restarting this script.
 
 ## Applications
 ### Playing a recording on a telephone when handset is taken off the cradle.
+
+![IMG_0690-3](https://github.com/user-attachments/assets/3579e806-ddcf-4b97-9c77-d0c4b0fc9580)
+
