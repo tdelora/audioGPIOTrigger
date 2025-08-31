@@ -37,7 +37,16 @@ Parts list (beyond the Raspberry Pi and telephone):
 - 2 1K ohm Resistors
 - Male Dupont jumper wires
 - Female Dupont jumper wires
+- Heat shrink tubing
 
-A soldering iron and wire cutters are also needed.
+Tool list and other items used for assembly: 
+- Soldering Iron
+- (Leadless) Solder
+- Wire Strippers/Cutters
+- Solder Flux (Optional)
+- Dielectric Paste (Optional)
+
+In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shring tube.
+
 
 ### Create 3.5mm Harness
