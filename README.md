@@ -76,6 +76,7 @@ On the bare end wires on the 3.5mm Male Plug Wire:
   - I used white heat shrink tube.
 
 ### Create RJ12 Harness
+![IMG_0699](https://github.com/user-attachments/assets/a32db50c-6aa1-4f78-ae12-297d6b2d8119)
 
 The RJ12 Harness connects the Raspberry Pi GPIO pins and the LM386 Audio Amplifier to the telephone.
 
