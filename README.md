@@ -32,6 +32,8 @@ Parts list (beyond the Raspberry Pi and telephone):
         - https://a.co/d/aEelxUA
       - 12V 5A DC Female Power Plug
         - https://a.co/d/06SYlDA
+- 2 Position PCB Terminal Block
+  - https://a.co/d/4GGZHqM
 - 2 1K ohm Resistors
 - Male Dupont jumper wires
 - Female Dupont jumper wires
