@@ -14,3 +14,11 @@ restarting this script.
 
 ![IMG_0690-3](https://github.com/user-attachments/assets/3579e806-ddcf-4b97-9c77-d0c4b0fc9580)
 
+In this use case a modified Bell System 702BM (Princess) dial telephone is connected to a Raspberry Pi using bespoke harnesses.
+
+Parts list (beyond the Raspberry Pi and telephone:
+- 3.5mm Male Plug to Bare Wire Open End Headset TRRS Cord
+  - https://a.co/d/dSmd9GR
+- USB to 3.5mm Jack Audio Adapter (Optional)
+  - https://a.co/d/4tLp2hc
+
