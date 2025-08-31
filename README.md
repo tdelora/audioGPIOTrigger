@@ -51,7 +51,7 @@ Tool list and other items used for assembly:
 - Solder Flux (Optional)
 - Dielectric Paste (Optional)
 
-In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shring tube.
+In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shrink tube. **Also you must place the heat srink tubes in place before solding/connecting the various parts. Don't forget to do this!**
 
 ### Create 3.5mm plug Harness
 ![IMG_0423-2](https://github.com/user-attachments/assets/6e1b76f7-941a-4c04-a12b-de625b68dee8)
@@ -59,7 +59,7 @@ In the steps below I put soldering flux on the joint before soldering and dielec
 ![IMG_0428-2](https://github.com/user-attachments/assets/a53e6c4d-43f0-42b9-aae7-da80548c95bc)
 
 The 3.5mm plug harness connects the Raspberry Pi to the LM386 Audio Amplifier. Since the 3.5mm Male Plug Bare Wire has two audio outs
-and the LM386 Audio Amplifie has one audio in we need to combine the L & R wires from the 3.5mm Plug Bare Wire into one using 1K ohm
+and the LM386 Audio Amplifier has one audio in we need to combine the L & R wires from the 3.5mm Plug Bare Wire into one using 1K ohm
 resistors to prevent distort and component damage.
 
 On the bare end wires on the 3.5mm Male Plug Wire:
@@ -92,5 +92,14 @@ On the bare end wires on the RJ12 (6x6) Flat Modular Cable:
   - Blue and yellow (I used yellow heat shrink tube)
   - Green and white (I used green heat shrink tube)
   - Red and black (I used green heat shrink tube)
+
+## Create the Internal (Princess) Phone Harness
+
+This harness allows for direct acceess to the phone's internal line switch and handset.
+
+Notes:
+- The harness replaces has a 6x6 RJ12 connector replacing the stock 4x4 RJ11 connector. This allows all communications from the Raspberry Pi to/from the phone to flow through the connector giving the complete setup a clean look.
+- Using Dupont connectors gives us the ability to replace parts as needed however I found using typical Dupont black plastic housings for male/female connections did not always seat well so I decided to utilize the Dupont pins substituting heat shrink tubing for the housing. This maintains the harness flexability with a little extra work.
+
 
 
