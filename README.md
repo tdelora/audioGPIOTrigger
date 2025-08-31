@@ -37,7 +37,7 @@ Parts list (beyond the Raspberry Pi and telephone):
 - RJ11 (6x) Female Socket Modular Connector
   - https://a.co/d/aUCKzzk
 - RJ9 Modular connector for a Princess Phone.
-  - [Princess Transformers and Parts](https://www.ericofon.com/catalog/parts/princess.htm)
+    - [Princess Transformers and Parts](https://www.ericofon.com/catalog/parts/princess.htm)
 
 - 2 Position PCB Terminal Block
   - https://a.co/d/4GGZHqM
