@@ -49,4 +49,4 @@ Tool list and other items used for assembly:
 In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shring tube.
 
 
-### Create 3.5mm Harness
+### Create 3.5mm plug harness
