@@ -32,6 +32,8 @@ Parts list (beyond the Raspberry Pi and telephone):
         - https://a.co/d/aEelxUA
       - 12V 5A DC Female Power Plug
         - https://a.co/d/06SYlDA
+- RJ12 (6x6) Flat Modular Cable
+  - [L-com Flat Modular Cable, RJ12 (6x6)](https://www.l-com.com/ethernet-flat-modular-cable-rj12-6x6-tinned-end-10-ft)
 - 2 Position PCB Terminal Block
   - https://a.co/d/4GGZHqM
 - 2 1K ohm Resistors
@@ -71,8 +73,11 @@ On the bare end wires on the 3.5mm Male Plug Wire:
   - Although the audio wire is unused in this setup I am leaving open the possibility of a future need.
   - I used a green wire with no connector.
 - (Optional) Place heat shrink tubing (no Dielectric Paste) over all heat shunk joints to provide extra protection an support.
+  - I used white heat shrink tube.
 
-### Create...
+### Create RJ12 Harness
+
+The RJ12 Harness connects the Raspberry Pi GPIO pins and the LM386 Audio Amplifier to the telephone.
 
 
 
