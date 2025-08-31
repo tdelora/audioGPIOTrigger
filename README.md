@@ -16,9 +16,25 @@ restarting this script.
 
 In this use case a modified Bell System 702BM (Princess) dial telephone is connected to a Raspberry Pi using bespoke harnesses.
 
-Parts list (beyond the Raspberry Pi and telephone:
+Parts list (beyond the Raspberry Pi and telephone):
 - 3.5mm Male Plug to Bare Wire Open End Headset TRRS Cord
   - https://a.co/d/dSmd9GR
 - USB to 3.5mm Jack Audio Adapter (Optional)
   - https://a.co/d/4tLp2hc
+- LM386 Audio Amplifier Module
+  - https://a.co/d/29zcTLq
+  - Two ways to power for Audio Amplifier: 
+    - Via 9V Battery:
+      - 9V Battery
+      - 9V Battery Connector
+        - https://a.co/d/ivKIYgw
+    - Via 12V Power Supply:
+      - 12V 1A Power Supply
+        - https://a.co/d/aEelxUA
+      - 12V 5A DC Female Power Plug
+        - https://a.co/d/06SYlDA
+- 2 1K ohm Resistors
+- Male Dupont jumper wires
+- Female Dupont jumper wires
 
+A soldering iron and wire cutters are also needed.
