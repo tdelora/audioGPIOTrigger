@@ -97,6 +97,9 @@ On the bare end wires on the RJ12 (6x6) Flat Modular Cable:
 
 This harness allows for direct acceess to the phone's internal line switch and handset.
 
+![IMG_0668](https://github.com/user-attachments/assets/a9ea1084-341f-453f-8503-a4e699e56e4e)
+![IMG_0674](https://github.com/user-attachments/assets/1d9cce35-06b0-4172-bf1a-82855e93c6b4)
+
 Notes:
 - The harness replaces has a 6x6 RJ12 connector replacing the stock 4x4 RJ11 connector. I also used a new RJ9 connector vs the stock conector in case I made a mistake...  All this allows all communications from the Raspberry Pi to/from the phone to flow through the connector giving the complete setup a clean look.
 - Using Dupont connectors gives us the ability to replace parts as needed however I found using typical Dupont black plastic housings for male/female connections did not always seat well so I decided to utilize the Dupont pins substituting heat shrink tubing for the housing. This maintains the harness flexability with a little extra work.
