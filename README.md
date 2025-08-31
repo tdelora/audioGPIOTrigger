@@ -76,10 +76,21 @@ On the bare end wires on the 3.5mm Male Plug Wire:
   - I used white heat shrink tube.
 
 ### Create RJ12 Harness
+![IMG_0634](https://github.com/user-attachments/assets/cb76d39f-5439-4135-8e8f-ca4b91e4f178)
 ![IMG_0699](https://github.com/user-attachments/assets/a32db50c-6aa1-4f78-ae12-297d6b2d8119)
 
 The RJ12 Harness connects the Raspberry Pi GPIO pins and the LM386 Audio Amplifier to the telephone.
 
-
+On the bare end wires on the RJ12 (6x6) Flat Modular Cable:
+- Solder a 330 ohm resistor to the yellow wire. Solder a wire with a female Dupont connector to the other end of the resister. Place heat shrink tube over the soldered joints and resistor.
+  - I used a yellow wire with a female Dupont connector.
+- Solder a wire with a female Dupont connector to the blue wire.
+  - I used a blue wire with a female Dupont connector.
+- Solder wires with a male Dupont connector to the green, white, red and black wires. Place heat shrink tube over the soldered joints.
+  - I matched the color of the wires with a male Dupont connector to the respective colors of the wires on the RJ12 Cable.
+- (Optional) Place heat shrink tubing (no Dielectric Paste) in the following pairing over the heat shunk joints to provide extra protection an support:
+  - Blue and yellow (I used yellow heat shrink tube)
+  - Green and white (I used green heat shrink tube)
+  - Red and black (I used green heat shrink tube)
 
 
