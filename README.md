@@ -34,6 +34,11 @@ Parts list (beyond the Raspberry Pi and telephone):
         - https://a.co/d/06SYlDA
 - RJ12 (6x6) Flat Modular Cable
   - [L-com Flat Modular Cable, RJ12 (6x6)](https://www.l-com.com/ethernet-flat-modular-cable-rj12-6x6-tinned-end-10-ft)
+- RJ11 (6x) Female Socket Modular Connector
+  - https://a.co/d/aUCKzzk
+- RJ9 Modular connector for a Princess Phone.
+  - [Princess Transformers and Parts](https://www.ericofon.com/catalog/parts/princess.htm)
+
 - 2 Position PCB Terminal Block
   - https://a.co/d/4GGZHqM
 - 2 1K ohm Resistors
@@ -101,7 +106,7 @@ This harness allows for direct acceess to the phone's internal line switch and h
 ![IMG_0674](https://github.com/user-attachments/assets/1d9cce35-06b0-4172-bf1a-82855e93c6b4)
 
 Notes:
-- The harness replaces has a 6x6 RJ12 connector replacing the stock 4x4 RJ11 connector. I also used a new RJ9 connector vs the stock conector in case I made a mistake...  All this allows all communications from the Raspberry Pi to/from the phone to flow through the connector giving the complete setup a clean look.
+- The harness replaces has a 6x6 RJ11 connector replacing the stock 4x4 RJ11 connector. I also used a new RJ9 connector vs the stock conector in case I made a mistake...  All this allows all communications from the Raspberry Pi to/from the phone to flow through the connector giving the complete setup a clean look.
 - Using Dupont connectors gives us the ability to replace parts as needed however I found using typical Dupont black plastic housings for male/female connections did not always seat well so I decided to utilize the Dupont pins substituting heat shrink tubing for the housing. This maintains the harness flexability with a little extra work.
 - Using a 2 Position PCB Terminal Block allows us to connect to the phone's internal line switch without modifying the wiring from the switch which would be very hard to replace if things go wrong.
 
