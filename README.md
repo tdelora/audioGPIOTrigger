@@ -69,7 +69,7 @@ resistors to prevent distort and component damage.
 On the bare end wires on the 3.5mm Male Plug Wire:
 - Solder a 1K ohm resistor to the red (left channel) wire. Place heat shrink tube over the soldered joint leaving the unsolded side of the resistor exposed.
 - Solder a 1K ohm resistor to the white (right channel) wire. Place heat shrink tube over the soldered joint leaving the unsolded side of the resistor exposed.
-- Solder the expossed ends of the 1K ohm resistors to a wire that has a female Dupont connector on the other end. Place heat shrink tube over the soldered joint.
+- Solder the exposed ends of the 1K ohm resistors to a wire that has a female Dupont connector on the other end. Place heat shrink tube over the soldered joint.
   - I used a white wire with a female Dupont connector.
 - Solder a wire with a female Dupont connector to the black (Ground) wire.
   - I used a black wire with a female Dupont connector.
@@ -96,7 +96,7 @@ On the bare end wires on the RJ12 (6x6) Flat Modular Cable:
 - (Optional) Place heat shrink tubing (no Dielectric Paste) in the following pairing over the heat shunk joints to provide extra protection and support:
   - Blue and yellow (I used yellow heat shrink tube)
   - Green and white (I used green heat shrink tube)
-  - Red and black (I used green heat shrink tube)
+  - Red and black (I used black heat shrink tube)
 
 ## Create the Internal (Princess) Phone Harness
 
@@ -126,3 +126,18 @@ Phone Harness Build Steps:
 ![IMG_0678](https://github.com/user-attachments/assets/e66cf783-3fc0-4ae4-9831-b9c7820d5568)
 ![IMG_0682](https://github.com/user-attachments/assets/61ca4a2f-1376-4bc6-8386-99e39733ed43)
 
+After removing the telephone cover:
+- Remove the installed RJ9 and RJ11 Modular connectors
+- Disconnect the orange wire from terminal 2 and the blue wire from terminal 4.
+  - This will give us access to the phone switch.
+  - <img width="266" alt="Screenshot 2025-07-07 at 16 40 40" src="https://github.com/user-attachments/assets/0b23ea7a-bc5f-4ca7-9dd5-206a7656238c" />
+- Connect the 2 Position PCB Terminal Block to the wires from the line switch as follows:
+  - The orange wire to the screw terminal for the yellow Dupont pin connected wire.
+  - The blue wire to the screw terminal for the blue Dupont pin connected wire.
+- Tuck the connected PCB Terminal Block under the wiring/equiment in the middle of the phone. Should fit easily.
+- Place the RJ9 Modular connector in the slot in the front of the phone, tucking the wiring along the side of the phone and not impeding the mechanical operations.
+- Place the RJ11 Modular connector in the slot in the back of the phone, tucking the wiring under the equiment to not impede the mechanical operations.
+
+After checking the phone mechanical operations reconnect the telephone cover.
+
+## Complete the System Setup
