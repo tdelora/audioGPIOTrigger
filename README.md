@@ -34,7 +34,7 @@ Parts list (beyond the Raspberry Pi and telephone):
         - https://a.co/d/06SYlDA
 - RJ12 (6x6) Flat Modular Cable
   - [L-com Flat Modular Cable, RJ12 (6x6)](https://www.l-com.com/ethernet-flat-modular-cable-rj12-6x6-tinned-end-10-ft)
-- RJ11 (6x) Female Socket Modular Connector
+- RJ11 (6x6) Female Socket Modular Connector
   - https://a.co/d/aUCKzzk
 - RJ9 Modular connector for a Princess Phone
     - [Princess Transformers and Parts](https://www.ericofon.com/catalog/parts/princess.htm)
@@ -55,7 +55,7 @@ Tool list and other items used for assembly:
 - Solder Flux (Optional)
 - Dielectric Paste (Optional)
 
-In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shrink tube. **Also you must place the heat srink tubes in place before solding/connecting the various parts. Don't forget to do this!**
+In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shrink tube. **Also you must place the heat shrink tubes in place before solding/connecting the various parts. Don't forget to do this!**
 
 ### Create 3.5mm plug Harness
 ![IMG_0423-2](https://github.com/user-attachments/assets/6e1b76f7-941a-4c04-a12b-de625b68dee8)
@@ -76,7 +76,7 @@ On the bare end wires on the 3.5mm Male Plug Wire:
 - (Optional) Solder a wire to the green (mic) wire. Place heat shrink tube over the soldered joint.
   - Although the audio wire is unused in this setup I am leaving open the possibility of a future need.
   - I used a green wire with no connector.
-- (Optional) Place heat shrink tubing (no Dielectric Paste) over all heat shunk joints to provide extra protection an support.
+- (Optional) Place heat shrink tubing (no Dielectric Paste) over all heat shunk joints to provide extra protection and support.
   - I used white heat shrink tube.
 
 ### Create RJ12 Harness
@@ -92,7 +92,7 @@ On the bare end wires on the RJ12 (6x6) Flat Modular Cable:
   - I used a blue wire with a female Dupont connector.
 - Solder wires with a male Dupont connector to the green, white, red and black wires. Place heat shrink tube over the soldered joints.
   - I matched the color of the wires with a male Dupont connector to the respective colors of the wires on the RJ12 Cable.
-- (Optional) Place heat shrink tubing (no Dielectric Paste) in the following pairing over the heat shunk joints to provide extra protection an support:
+- (Optional) Place heat shrink tubing (no Dielectric Paste) in the following pairing over the heat shunk joints to provide extra protection and support:
   - Blue and yellow (I used yellow heat shrink tube)
   - Green and white (I used green heat shrink tube)
   - Red and black (I used green heat shrink tube)
@@ -109,5 +109,14 @@ Notes:
 - Using Dupont connectors gives us the ability to replace parts as needed however I found using typical Dupont black plastic housings for male/female connections did not always seat well so I decided to utilize the Dupont pins substituting heat shrink tubing for the housing. This maintains the harness flexability with a little extra work.
 - Using a 2 Position PCB Terminal Block allows us to connect to the phone's internal line switch without modifying the wiring from the switch which would be very hard to replace if things go wrong.
 
-
+Phone Harness Build Steps:
+- Connect female Dupont pins to the six wires on the RJ11 Female Socket Modular Connector.
+  - You may need to remove any existing connectors first.
+- Connect male Dupont pins to the wires four wires on the RJ9 Modular connector.
+  - You may need to remove any existing connectors first.
+- Cut 6 heat shrink tubing segments long enough to cover the male/female connections between the RJ11 Female Socket wires and the RJ9 Modular connector and male connectors on the 2 Position PCB Terminal Block. 
+- Place the heat shrink tubing segments on the RJ11 Female Socket Modular Connector wires and connect as follows:
+  - Connect the red, white, green and black RJ11 female Dupont pins to the same color wire male pins on the RJ9 Modular connector.
+  - Connect the yellow and blue RJ11 female Dupont pins to male pins on the 2 Position PCB Terminal Block.
+  - Coat each joint with Dielectric Paste, slide the heat shrink tubing segment over each joint and heat the shrink tube into place.
 
