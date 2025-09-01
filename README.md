@@ -22,7 +22,7 @@ Parts list (beyond the Raspberry Pi and telephone):
   - https://a.co/d/4tLp2hc
 - LM386 Audio Amplifier Module
   - https://a.co/d/29zcTLq
-  - Two ways to power for Audio Amplifier: 
+  - Two ways to power for Audio Amplifier:
     - Via 9V Battery:
       - 9V Battery
       - 9V Battery Connector
@@ -36,9 +36,8 @@ Parts list (beyond the Raspberry Pi and telephone):
   - [L-com Flat Modular Cable, RJ12 (6x6)](https://www.l-com.com/ethernet-flat-modular-cable-rj12-6x6-tinned-end-10-ft)
 - RJ11 (6x) Female Socket Modular Connector
   - https://a.co/d/aUCKzzk
-- RJ9 Modular connector for a Princess Phone.
+- RJ9 Modular connector for a Princess Phone
     - [Princess Transformers and Parts](https://www.ericofon.com/catalog/parts/princess.htm)
-
 - 2 Position PCB Terminal Block
   - https://a.co/d/4GGZHqM
 - 2 1K ohm Resistors
