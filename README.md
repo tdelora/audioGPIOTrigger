@@ -58,9 +58,9 @@ Tool list and other items used for assembly:
 In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shrink tube. **Also you must place the heat shrink tubes in place before solding/connecting the various parts. Don't forget to do this!**
 
 ### Create 3.5mm plug Harness
-![IMG_0423-2](https://github.com/user-attachments/assets/6e1b76f7-941a-4c04-a12b-de625b68dee8)
-![IMG_0426-2](https://github.com/user-attachments/assets/c43fde86-d6cd-4792-a106-a47137bb068b)
-![IMG_0428-2](https://github.com/user-attachments/assets/a53e6c4d-43f0-42b9-aae7-da80548c95bc)
+![IMG_0423-3](https://github.com/user-attachments/assets/0611009d-8a9c-4c00-bcd3-f0ae9c2dc2b1)
+![IMG_0426-3](https://github.com/user-attachments/assets/a17087b3-2e9e-499e-bc99-9120f189950e)
+![IMG_0428-3](https://github.com/user-attachments/assets/50940c1f-5602-45a6-837e-eed4be2f923f)
 
 The 3.5mm plug harness connects the Raspberry Pi to the LM386 Audio Amplifier. Since the 3.5mm Male Plug Bare Wire has two audio outs
 and the LM386 Audio Amplifier has one audio in we need to combine the L & R wires from the 3.5mm Plug Bare Wire into one using 1K ohm
@@ -80,8 +80,9 @@ On the bare end wires on the 3.5mm Male Plug Wire:
   - I used white heat shrink tube.
 
 ### Create RJ12 Harness
-![IMG_0634](https://github.com/user-attachments/assets/cb76d39f-5439-4135-8e8f-ca4b91e4f178)
-![IMG_0699](https://github.com/user-attachments/assets/a32db50c-6aa1-4f78-ae12-297d6b2d8119)
+
+![IMG_0634-2](https://github.com/user-attachments/assets/0099908f-1cf7-45db-815b-7caec83f8438)
+![IMG_0699-2](https://github.com/user-attachments/assets/993f4532-e9e5-4fd3-bfef-e6697a69d0b3)
 
 The RJ12 Harness connects the Raspberry Pi GPIO pins and the LM386 Audio Amplifier to the telephone.
 
@@ -101,8 +102,8 @@ On the bare end wires on the RJ12 (6x6) Flat Modular Cable:
 
 This harness allows for direct acceess to the phone's internal line switch and handset.
 
-![IMG_0668](https://github.com/user-attachments/assets/a9ea1084-341f-453f-8503-a4e699e56e4e)
-![IMG_0674](https://github.com/user-attachments/assets/1d9cce35-06b0-4172-bf1a-82855e93c6b4)
+![IMG_0668-2](https://github.com/user-attachments/assets/96162309-73bc-468e-9d9d-08f51c460b37)
+![IMG_0674-2](https://github.com/user-attachments/assets/ff077a49-5119-43a0-a0d6-9a9be01b01fc)
 
 Notes:
 - The harness replaces has a 6x6 RJ11 connector replacing the stock 4x4 RJ11 connector. I also used a new RJ9 connector vs the stock conector in case I made a mistake...  All this allows all communications from the Raspberry Pi to/from the phone to flow through the connector giving the complete setup a clean look.
@@ -119,4 +120,9 @@ Phone Harness Build Steps:
   - Connect the red, white, green and black RJ11 female Dupont pins to the same color wire male pins on the RJ9 Modular connector.
   - Connect the yellow and blue RJ11 female Dupont pins to male pins on the 2 Position PCB Terminal Block.
   - Coat each joint with Dielectric Paste, slide the heat shrink tubing segment over each joint and heat the shrink tube into place.
+
+## Install the Internal (Princess) Phone Harness
+
+![IMG_0678](https://github.com/user-attachments/assets/e66cf783-3fc0-4ae4-9831-b9c7820d5568)
+![IMG_0682](https://github.com/user-attachments/assets/61ca4a2f-1376-4bc6-8386-99e39733ed43)
 
