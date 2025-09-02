@@ -140,4 +140,16 @@ After removing the telephone cover:
 
 After checking the phone mechanical operations reconnect the telephone cover.
 
+## Prep power for the LM386 Audio Amplifier Module
+![IMG_0415](https://github.com/user-attachments/assets/529ef727-f049-40f1-8334-47439b1a7658)
+![IMG_0715-2](https://github.com/user-attachments/assets/988329a9-d30f-445f-9c7f-e762ecdf1d01)
+
+The LM386 Audio Amplifier Module requires power and there are two ways this can be done
+- Obtain a 9V Battery Connector, and connect female female Dupont connectors to it.
+  - I used prefabricated wires with female Dupont connectors and wire colors that match the wires on the 9V Battery Connector.
+- Obtain a 12V Power Supply with a 12V 5A DC Female Power Plug and wires with a male Dupont connector on one end and a female Dupont connector on the other.
+  - I used a red wire for the positive connection and a black wire for the ground.
+ 
+Note: The LM386 Audio Amplifier Module has a minimum power need of 5 Volts and a maximum of 12 Volts. I experimented with utilizing a 5 Volt power pin on the Raspberry Pi and found it to be inatequate for this setup.
+
 ## Complete the System Setup
