@@ -97,6 +97,8 @@ On the bare end wires on the RJ12 (6x6) Flat Modular Cable:
   - Blue and yellow (I used yellow heat shrink tube)
   - Green and white (I used green heat shrink tube)
   - Red and black (I used black heat shrink tube)
+ 
+Note: In the current setup the red and black wires in the RJ12 Harness are not utilized.
 
 ## Create the Internal (Princess) Phone Harness
 
