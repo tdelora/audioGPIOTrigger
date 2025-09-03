@@ -175,12 +175,12 @@ Steps:
   - Connect the 3.5mm plug Harness to either:
     - A 3.5mm plug on older Pis.
     - A USB-A plug (on all Pis) using a USB to 3.5mm Jack Audio Adapter.
-  - Connect the RJ12 Harness to RJ11 Modular connector on the phone.
+- Connect the RJ12 Harness to RJ11 Modular connector on the phone.
+- Ensure the phone handset is on the hook.
   - If the handset is not plugged into the RJ9 Modular connector on the phone, now is the time to do it.
-  - Ensure the phone handset is on the hook.
-  - Power up the LM386 power supply.
-  - Logon to the Raspberry Pi and start the script.
-    - I login and use absolute paths.
-      - Example: nohup /usr/bin/python3 /home/pi/Scripts/audioGPIOTrigger.py /home/pi/Audio/telephone &
-  - Pick up the phone handset and listen.
+- Power up the LM386 power supply.
+- Logon to the Raspberry Pi and start the script.
+  - I login and use absolute paths.
+    - Example: nohup /usr/bin/python3 /home/pi/Scripts/audioGPIOTrigger.py /home/pi/Audio/telephone &
+- Pick up the phone handset and listen.
 
