@@ -151,7 +151,7 @@ The LM386 Audio Amplifier Module requires power and there are two ways this can 
   - I used a red wire for the positive connection and a black wire for the ground.
  
 Notes:
-- I noted that using the 12V Power Supply created noise in the audio depending on how the equipment and connections are place. Using the 9V battery connector provided only a little noise. 
+- I noted that using the 12V Power Supply created noise in the audio depending on how the equipment and connections are placed. Using the 9V battery connector provided only a little noise. 
 - The LM386 Audio Amplifier Module has a minimum power need of 5 Volts and a maximum of 12 Volts. I experimented with utilizing a 5 Volt power pin on the Raspberry Pi and found it to be inatequate for this setup.
 
 ## Complete the System Setup
