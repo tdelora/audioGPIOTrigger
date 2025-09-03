@@ -155,3 +155,32 @@ Notes:
 - The LM386 Audio Amplifier Module has a minimum power need of 5 Volts and a maximum of 12 Volts. I experimented with utilizing a 5 Volt power pin on the Raspberry Pi and found it to be inatequate for this setup.
 
 ## Complete the System Setup
+
+The wire color descriptions are based on the wire colors I mentioned in the previous sections.
+
+Steps:
+- Ensure your choice of power supply for the LM386 Audio Amplifier Module is powered down.
+- On the LM386 Audio Amplifier Module:
+  - ![IMG_0728](https://github.com/user-attachments/assets/2e1e2dff-0089-4a18-b613-67267f14ba3f)
+  - Connect the male Dupont connector green wire (audio) on the RJ12 Harness to the green OUT+ terminal.
+  - Connect the male Dupont connector white wire (ground) on the RJ12 Harness to the green GND- terminal.
+  - Connect the female Dupont connector red wire (power) from the LM386 power supply to the VCC+ terminal.
+  - Connect the female Dupont connector white wire (audio) from the 3.5mm plug Harness to the Audio input+ terminal.
+  - Connect the female Dupont connector black wire (power ground) from the LM386 power supply to the to the power supply ground terminal.
+  - Connect the female Dupont connector black wire (audio ground) from the 3.5mm plug Harness to the to the Audio input- terminal.
+- On the Raspberry Pi:
+  - ![IMG_0727](https://github.com/user-attachments/assets/87a4fbe7-0be0-4876-9759-4b6f276b83ad)
+  - Connect the female Dupont connector yellow wire (power) from the RJ12 Harness to a 5V power pin (I used pin 2).
+  - Connect the female Dupont connector blue wire (signal) from the RJ12 Harness to GPIO 16 (Pin 36).
+  - Connect the 3.5mm plug Harness to either:
+    - A 3.5mm plug on older Pis.
+    - A USB-A plug (on all Pis) using a USB to 3.5mm Jack Audio Adapter.
+  - Connect the RJ12 Harness to RJ11 Modular connector on the phone.
+  - If the handset is not plugged into the RJ9 Modular connector on the phone, now is the time to do it.
+  - Ensure the phone handset is on the hook.
+  - Power up the LM386 power supply.
+  - Logon to the Raspberry Pi and start the script.
+    - I login and use absolute paths.
+      - Example: nohup /usr/bin/python3 /home/pi/Scripts/audioGPIOTrigger.py /home/pi/Audio/telephone &
+  - Pick up the phone handset and listen.
+
