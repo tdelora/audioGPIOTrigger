@@ -55,7 +55,7 @@ Tool list and other items used for assembly:
 - Solder Flux (Optional)
 - Dielectric Paste (Optional)
 
-In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shrink tube. **Also you must place the heat shrink tubes in place before solding/connecting the various parts. Don't forget to do this!**
+In the steps below I put soldering flux on the joint before soldering and dielectric paste on the soldered joint before placing and heating the heat shrink tube. **Also you must put the heat shrink tubes on the wire before solding/connecting the various parts. Don't forget to do this!**
 
 ### Create 3.5mm plug Harness
 ![IMG_0423-3](https://github.com/user-attachments/assets/0611009d-8a9c-4c00-bcd3-f0ae9c2dc2b1)
