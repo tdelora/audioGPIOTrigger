@@ -22,9 +22,10 @@ audioLevel = 100
 # Define the GPIO pin you want to monitor
 gpioPin = 16
 
-# Keep track of the last recording playe so we don't repeat.
-# Start with -1 because that number is impossible after initialization.
+# Keep track of the last 2 recordings played so we don't repeat.
+# Start with -1 and -2 because these numbers are impossible after initialization.
 lastRand = -1
+secondLastRand = -2
 
 # Set the pin, using GPIO.PUD_DOWN in GPIO.setup should keep the pin state low
 # at startup and when not triggered.
@@ -51,7 +52,7 @@ try:
     # audio directory to be updated and utilized  without restarting this
     # script.
 
-    global audioDirectory, lastRand
+    global audioDirectory, lastRand, secondLastRand
 
     dirContents = os.listdir(audioDirectory)
 
@@ -74,10 +75,11 @@ try:
     # Get a random value and check it against the last random value.
     # Continue if the values match, this keeps us from playing the same recordings
     # over and over again.
-    while (randSel := random.randint(0, contentNum - 1)) == lastRand:
+    while (randSel := random.randint(0, contentNum - 1)) in (lastRand, secondLastRand):
       pass
 
     # Keep track of the random value selected.
+    secondLastRand = lastRand
     lastRand = randSel
 
     # Set the media specification for the VLC player and play the audio.
