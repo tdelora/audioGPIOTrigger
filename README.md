@@ -13,9 +13,15 @@ restarting this script.
 
 ![IMG_0690-3](https://github.com/user-attachments/assets/3579e806-ddcf-4b97-9c77-d0c4b0fc9580)
 
+### Raspberry Pi Notes
+This script was developed and tested on Raspberry Pi Models 3B and 5B, run on Raspian 12 (bookworm) and at least one later version (sorry). Issues I have encountered:
+- Audio Config: The audio appears to only work when Raspian is configured for PulseAudio, fails when Pipeware is the audioserver.
+  - To check this in the Raspian Software Configuration Menu go to Advanced Options -> Audio Config and select PulseAudio. I also rebooted after reconfiguring to rub it in.
+
+## Parts list (beyond the Raspberry Pi)
+
 In this use case a modified Bell System 702BM (Princess) dial telephone is connected to a Raspberry Pi using bespoke harnesses.
 
-Parts list (beyond the Raspberry Pi and telephone):
 - 3.5mm Male Plug to Bare Wire Open End Headset TRRS Cord
   - https://a.co/d/dSmd9GR
 - USB to 3.5mm Jack Audio Adapter (Optional)
