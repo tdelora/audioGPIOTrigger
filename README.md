@@ -192,6 +192,30 @@ Steps:
     - Example: nohup /usr/bin/python3 /home/pi/Scripts/audioGPIOTrigger.py /home/pi/Audio/telephone &
 - Pick up the phone handset and listen.
 
-## Create a service for audioGPIOTrigger 
+## Create a systemd service for audioGPIOTrigger 
 
-- Placeholder
+Creating a systemd service for audioGPIOTrigger will keep the script running and restore the overall gag after system restarts.
+
+Steps:
+- Edit file audioGPIOTrigger.service updating as follows:
+  - Update the audioGPIOTrigger script location and the audio file locations as needed in the ExecStart variable:
+    - ExecStart=/usr/bin/python3 -u /home/pi/Scripts/audioGPIOTrigger.py /home/pi/Audio/telephone
+      - Note: systemd does not use your standard user $PATH so use absolute paths for the script and audio file locations.
+  - Update the WorkingDirectory variable to be the directory where the audioGPIOTrigger script is located:
+    - WorkingDirectory=/home/pi/Scripts
+  - Update the USER variable to your username:
+    - User=pi
+  - On the target Raspberry Pi check your user's ID using command 'id -u \<your user\>'. It’s usually 1000, if it is anything else update the following variables replacing the 1000 with the correct ID value:
+    - After=network.target sound.target user@1000.service
+    - Wants=user@1000.service
+    - Environment=XDG_RUNTIME_DIR=/run/user/1000
+    - Environment=PULSE_SERVER=unix:/run/user/1000/pulse/native
+- Copy the updated audioGPIOTrigger.service to directory /etc/systemd/system
+- Ensure permissions are set correctly:
+  - sudo chmod 644 /etc/systemd/system/audioGPIOTrigger.service
+- Enable linger for your user, start the service and ensure it starts automatically on boot:
+  - sudo loginctl enable-linger \<user name\>
+  - sudo systemctl daemon-reload
+  - sudo systemctl enable --now audioGPIOTrigger
+- (Optional): Check the status of the service:
+  - systemctl status audioGPIOTrigger
