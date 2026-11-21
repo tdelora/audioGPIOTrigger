@@ -205,7 +205,7 @@ Steps:
     - WorkingDirectory=/home/pi/Scripts
   - Update the USER variable to your username:
     - User=pi
-  - On the target Raspberry Pi check your user's ID using command 'id -u \<your user\>'. It’s usually 1000, if it is anything else update the following variables replacing the 1000 with the correct ID value:
+  - On the target Raspberry Pi check your user's ID using command 'id -u \<user name\>'. It’s usually 1000, if it is anything else update the following variables replacing the 1000 with the correct ID value:
     - After=network.target sound.target user@1000.service
     - Wants=user@1000.service
     - Environment=XDG_RUNTIME_DIR=/run/user/1000
