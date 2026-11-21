@@ -192,3 +192,6 @@ Steps:
     - Example: nohup /usr/bin/python3 /home/pi/Scripts/audioGPIOTrigger.py /home/pi/Audio/telephone &
 - Pick up the phone handset and listen.
 
+## Create a service for audioGPIOTrigger 
+
+- Placeholder
