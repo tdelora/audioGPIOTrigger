@@ -4,9 +4,9 @@ After=network.target sound.target user@1000.service
 Wants=user@1000.service
 
 [Service]
-ExecStart=/usr/bin/python3 -u /home/ted/Scripts/audioGPIOTrigger.py /home/ted/Audio/telephone
-WorkingDirectory=/home/ted/Scripts
-User=ted
+ExecStart=/usr/bin/python3 -u /home/pi/Scripts/audioGPIOTrigger.py /home/pi/Audio/telephone
+WorkingDirectory=/home/pi/Scripts
+User=pi
 SupplementaryGroups=gpio audio
 Environment=XDG_RUNTIME_DIR=/run/user/1000
 Environment=PULSE_SERVER=unix:/run/user/1000/pulse/native
